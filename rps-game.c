@@ -44,7 +44,7 @@ int get_user_choice(void)
 	int i;
 
 	printf("Enter your choice - rock, paper or scissors: ");
-	scanf("%s\n", input);
+	scanf("%s", input);
 
 	/* Converts input to lowercase */
 	for (i = 0; input[i]; i++)
@@ -52,15 +52,15 @@ int get_user_choice(void)
 		input[i] = tolower(input[i]);
 	}
 	/* Check the input against the possible choices */
-	if (strcmp(input, "rock\n") == 0)
+	if (strcmp(input, "rock") == 0)
 	{
 		return (1);
 	}
-	else if (strcmp(input, "paper\n") == 0)
+	else if (strcmp(input, "paper") == 0)
 	{
 		return (2);
 	}
-	else if (strcmp(input, "scissors\n") == 0)
+	else if (strcmp(input, "scissors") == 0)
 	{
 		return (3);
 	}
