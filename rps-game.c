@@ -126,7 +126,7 @@ void play_game(int *user_wins, int *comp_wins)
 
 void print_taunt(int winner)
 {
-	if (winner)
+	if (!winner)
 	{
 		switch (rand() % 3)
 		{
@@ -146,13 +146,13 @@ void print_taunt(int winner)
 		switch (rand() % 3)
 		{
 			case 0:
-				printf("You got lucky that time!\n");
+				printf("I got lucky this time!\n");
 				break;
 			case 1:
 				printf("Ha! I win again!\n");
 				break;
 			case 2:
-				printf("The computer is unstoppable!\n");
+				printf("I am unstoppable!\n");
 				break;
 		}
 	}
