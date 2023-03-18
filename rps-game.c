@@ -141,7 +141,7 @@ void play_game(int *user_wins, int *comp_wins)
 
 void print_taunt(int winner)
 {
-	if (!winner)
+	if (winner < 0)
 	{
 		switch (rand() % 3)
 		{
