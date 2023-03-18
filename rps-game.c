@@ -78,7 +78,22 @@ int get_user_choice(void)
 
 int get_comp_choice(void)
 {
-	return ((rand() % 3) + 1);
+int comp_choice = (rand() % 3) + 1;
+    switch (comp_choice) {
+        case 1:
+            printf("Computer chooses rock\n");
+            break;
+        case 2:
+            printf("Computer chooses paper\n");
+            break;
+        case 3:
+            printf("Computer chooses scissors\n");
+            break;
+        default:
+            printf("Error: Invalid choice\n");
+            break;
+    }
+	return (comp_choice);
 }
 
 /**
