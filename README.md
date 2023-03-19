@@ -1,4 +1,4 @@
-# rock-paper-scissors
+# Rock-Paper-Scissors
 A fun rock paper scissors game using C
 
 ### Rock-Paper-Scissors Game
