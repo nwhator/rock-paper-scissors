@@ -15,7 +15,7 @@ This is a simple implementation of the Rock-Paper-Scissors game in C programming
 2. Scissors beat Paper
 3. Paper beats Rock
 
-## Contributing
+## [Contributing](https://github.com/nwhator/rock-paper-scissors/blob/main/CONTRIBUTING.md)
 Contributions are always welcome! If you have any suggestions, bug reports, or pull requests, please feel free to submit them.
 
 ## License
