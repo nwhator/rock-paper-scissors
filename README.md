@@ -17,6 +17,3 @@ This is a simple implementation of the Rock-Paper-Scissors game in C programming
 
 ## [Contributing](https://github.com/nwhator/rock-paper-scissors/blob/main/CONTRIBUTING.md)
 Contributions are always welcome! If you have any suggestions, bug reports, or pull requests, please feel free to submit them.
-
-## [License](https://github.com/nwhator/rock-paper-scissors/blob/main/LICENSE)
-This project is licensed under the [MIT License](https://github.com/nwhator/rock-paper-scissors/blob/main/LICENSE).
